@@ -134,7 +134,7 @@ def main():
     matcher.plot_bokeh()
     matcher.plot_png()
 
-    print("\n✅ DONE — Best Matches !:")
+    print("\n✅ DONE — Best Matches:")
     for tcol, icol in matcher.best_map.items():
         print(f"{tcol} → {icol}  |  max deviation = {matcher.max_deviation[tcol]:.6f}")
 
